@@ -6,6 +6,7 @@ Version control? NAHHH
 # 0.0.5
 - Make default color white instead of bright green for those rare oddities
 - Fixed color for try brackets
+- Added coloring to brackets for classes, method calls, and try catch.
 
 # 0.0.4
 - Made purple the same purple used by cyberpunk 🙄
