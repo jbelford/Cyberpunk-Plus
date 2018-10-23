@@ -21,4 +21,4 @@ Here's the color palette:
 
 Why do I have 3 whites? TBH I don't know it looks different on different displays. ~~Also I just threw this together randomly~~
 
-![Code Screenshot](/assets/example.png?raw=true "Code Screenshot")
+![Code Screenshot](/assets/example.PNG?raw=true "Code Screenshot")
