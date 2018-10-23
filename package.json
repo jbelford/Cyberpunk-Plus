@@ -1,0 +1,22 @@
+{
+    "name": "cyberpunk-plus",
+    "displayName": "Cyberpunk+",
+    "description": "The excellent cyber punk theme from prometheux-ar but with more blue-red for Java.",
+    "version": "0.0.1",
+    "publisher": "jbelford",
+    "engines": {
+        "vscode": "^1.28.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Cyberpunk+",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Cyberpunk+-color-theme.json"
+            }
+        ]
+    }
+}
