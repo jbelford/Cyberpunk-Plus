@@ -976,7 +976,15 @@
 				"punctuation.section.try.begin.bracket.curly.java",
 				"punctuation.section.try.end.bracket.curly.java",
 				"punctuation.section.catch.begin.bracket.curly.java",
-				"punctuation.section.catch.end.bracket.curly.java"
+				"punctuation.section.catch.end.bracket.curly.java",
+				"keyword.operator.logical.java",
+				"keyword.operator.arithmetic.java",
+				"keyword.operator.increment-decrement.java",
+				"keyword.operator.bitwise.java",
+				"keyword.operator.assignment.bitwise.java",
+				"keyword.operator.assignment.arithmetic.java",
+				"punctuation.section.finally.begin.bracket.curly.java",
+				"punctuation.section.finally.end.bracket.curly.java"
 			],
 			"settings": {
 				"foreground": "#ffffffd2"
@@ -997,7 +1005,10 @@
 			"scope": [
 				"storage.modifier.java",
 				"storage.type.function.arrow.java",
-				"storage.modifier.extends.java"
+				"storage.modifier.extends.java",
+				"storage.modifier.implements.java",
+				"storage.type.generic.wildcard.java",
+				"keyword.operator.instanceof.java"
 			],
 			"settings": {
 				"foreground": "#ff5680ff"
@@ -1008,12 +1019,11 @@
 			"scope": [
 				"storage.type.java",
 				"storage.type.object.array.java",
-				"storage.type.primitive.java",
 				"entity.name.type.class.java",
 				"punctuation.definition.annotation.java",
 				"storage.type.annotation.java",
 				"storage.type.generic.java",
-				"entity.other.inherited-class.java"
+				"entity.other.inherited-class.java",
 			],
 			"settings": {
 				"foreground": "#00b0ffff"
@@ -1046,17 +1056,24 @@
 			"name": "Non-string Primitives",
 			"scope": [
 				"constant.language.java",
-				"constant.numeric.decimal.java"
+				"constant.numeric.decimal.java",
+				"constant.character.escape.java"
 			],
 			"settings": {
 				"foreground": "#ffb36c"
 			}
 		},
 		{
-			"name": "Keywords - do, while, for, return",
+			"name": "Keywords / Primitives",
 			"scope": [
 				"keyword.control.java",
-				"keyword.control.new.java"
+				"keyword.control.new.java",
+				"keyword.control.throw.java",
+				"keyword.control.try.java",
+				"keyword.control.catch.java",
+				"keyword.control.finally.java",
+				"storage.type.primitive.java",
+				"storage.type.primitive.array.java"
 			],
 			"settings": {
 				"foreground": "#d57bffff"

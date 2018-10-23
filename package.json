@@ -2,7 +2,7 @@
     "name": "cyberpunk-plus",
     "displayName": "Cyberpunk+",
     "description": "The excellent cyber punk theme from prometheux-ar but with more blue-red for Java.",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "publisher": "jbelford",
     "engines": {
         "vscode": "^1.28.0"
