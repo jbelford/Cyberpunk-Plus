@@ -18,5 +18,9 @@
                 "path": "./themes/Cyberpunk+-color-theme.json"
             }
         ]
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/jbelford/Cyberpunk-Plus"
     }
 }
