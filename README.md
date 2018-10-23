@@ -19,4 +19,6 @@ Here's the color palette:
 * ![#eeffffff](https://placehold.it/15/eeffffff/000000?text=+) #eeffffff
 * ![#f8f8f8](https://placehold.it/15/f8f8f8/000000?text=+) #f8f8f8
 
-Why do I have 3 whites? TBH I don't know it looks different on different displays.
+Why do I have 3 whites? TBH I don't know it looks different on different displays. ~~Also I just threw this together randomly~~
+
+![Code Screenshot](/assets/example.png?raw=true "Code Screenshot")
