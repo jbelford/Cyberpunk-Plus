@@ -968,7 +968,6 @@
 				"punctuation.bracket.square.java",
 				"punctuation.bracket.angle.java",
 				"punctuation.terminator.java",
-				"keyword.control.ternary.java",
 				"punctuation.separator.delimiter.java",
 				"punctuation.separator.java",
 				"punctuation.separator.period.java",
@@ -1008,7 +1007,8 @@
 				"storage.modifier.extends.java",
 				"storage.modifier.implements.java",
 				"storage.type.generic.wildcard.java",
-				"keyword.operator.instanceof.java"
+				"keyword.operator.instanceof.java",
+				"keyword.control.ternary.java"
 			],
 			"settings": {
 				"foreground": "#ff5680ff"
@@ -1076,7 +1076,8 @@
 				"storage.type.primitive.array.java"
 			],
 			"settings": {
-				"foreground": "#d57bffff"
+				// "foreground": "#d57bffff"
+				"foreground": "#c592ff"
 			}
 		},
 		{
@@ -1098,7 +1099,8 @@
 				"entity.name.function.java"
 			],
 			"settings": {
-				"foreground": "#00ffd5"
+				// "foreground": "#00ffd5"
+				"foreground": "#00ffc8"
 			}
 		},
 		{
