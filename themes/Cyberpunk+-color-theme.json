@@ -954,36 +954,38 @@
 			"name": "Punctuation, brackets, operators",
 			"scope": [
 				"punctuation.bracket.round.java",
-				"punctuation.definition.parameters.begin.bracket.round.java",
-				"punctuation.definition.parameters.end.bracket.round.java",
-				"punctuation.section.block.begin.bracket.curly.java",
-				"punctuation.section.block.end.bracket.curly.java",
-				"punctuation.section.inner-class.begin.bracket.curly.java",
-				"punctuation.section.inner-class.end.bracket.curly.java",
-				"punctuation.section.method.begin.bracket.curly.java",
-				"punctuation.section.method.end.bracket.curly.java",
-				"punctuation.section.class.begin.bracket.curly.java",
-				"punctuation.section.class.end.bracket.curly.java",
-				"keyword.operator.assignment.java",
 				"punctuation.bracket.square.java",
 				"punctuation.bracket.angle.java",
+				"keyword.operator.arithmetic.java",
+				"keyword.operator.bitwise.java",
+				"keyword.operator.comparison.java",
+				"keyword.operator.increment-decrement.java",
+				"keyword.operator.logical.java",
+				"keyword.operator.assignment.java",
+				"keyword.operator.assignment.bitwise.java",
+				"keyword.operator.assignment.arithmetic.java",
 				"punctuation.terminator.java",
 				"punctuation.separator.delimiter.java",
 				"punctuation.separator.java",
 				"punctuation.separator.period.java",
-				"keyword.operator.comparison.java",
+				"punctuation.definition.parameters.begin.bracket.round.java",
+				"punctuation.definition.parameters.end.bracket.round.java",
+				"punctuation.section.block.begin.bracket.curly.java",
+				"punctuation.section.block.end.bracket.curly.java",
+				"punctuation.section.class.begin.bracket.curly.java",
+				"punctuation.section.class.end.bracket.curly.java",
+				"punctuation.section.inner-class.begin.bracket.curly.java",
+				"punctuation.section.inner-class.end.bracket.curly.java",
+				"punctuation.section.method.begin.bracket.curly.java",
+				"punctuation.section.method.end.bracket.curly.java",
 				"punctuation.section.try.begin.bracket.curly.java",
 				"punctuation.section.try.end.bracket.curly.java",
+				"punctuation.section.try.resources.begin.bracket.round.java",
+				"punctuation.section.try.resources.end.bracket.round.java",
 				"punctuation.section.catch.begin.bracket.curly.java",
 				"punctuation.section.catch.end.bracket.curly.java",
-				"keyword.operator.logical.java",
-				"keyword.operator.arithmetic.java",
-				"keyword.operator.increment-decrement.java",
-				"keyword.operator.bitwise.java",
-				"keyword.operator.assignment.bitwise.java",
-				"keyword.operator.assignment.arithmetic.java",
 				"punctuation.section.finally.begin.bracket.curly.java",
-				"punctuation.section.finally.end.bracket.curly.java"
+				"punctuation.section.finally.end.bracket.curly.java",
 			],
 			"settings": {
 				"foreground": "#ffffffd2"
@@ -1076,7 +1078,6 @@
 				"storage.type.primitive.array.java"
 			],
 			"settings": {
-				// "foreground": "#d57bffff"
 				"foreground": "#c592ff"
 			}
 		},
@@ -1087,7 +1088,8 @@
 				"meta.class.body.java",
 				"storage.modifier.import.java",
 				"storage.modifier.package.java",
-				"constant.other.key.java"
+				"constant.other.key.java",
+				"source.java"
 			],
 			"settings": {
 				"foreground": "#f8f8f8"
@@ -1099,7 +1101,6 @@
 				"entity.name.function.java"
 			],
 			"settings": {
-				// "foreground": "#00ffd5"
 				"foreground": "#00ffc8"
 			}
 		},

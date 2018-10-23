@@ -3,9 +3,13 @@ All notable changes to the "cyberpunk-plus" extension will be documented in this
 
 Version control? NAHHH
 
+# 0.0.5
+- Make default color white instead of bright green for those rare oddities
+- Fixed color for try brackets
+
 # 0.0.4
 - Made purple the same purple used by cyberpunk 🙄
-- Made neon green color same neongreen used by cyberpunk 🙄 🙄
+- Made teal green color same tealgreen used by cyberpunk 🙄 🙄
 - Made ternarys and wildcards use the reds
 
 # 0.0.3
