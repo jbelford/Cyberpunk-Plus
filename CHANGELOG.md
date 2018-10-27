@@ -3,6 +3,9 @@ All notable changes to the "cyberpunk-plus" extension will be documented in this
 
 Version control? NAHHH
 
+# 0.0.7
+- Fix a couple colors for constants in JS
+
 # 0.0.6
 - Mapped color scheme to JavaScript as best as could be done
 
