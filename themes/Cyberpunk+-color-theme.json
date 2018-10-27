@@ -290,7 +290,7 @@
 			"name": "Variables",
 			"scope": [
 				"variable",
-				"string constant.other.placeholder"
+				"string constant.other.placeholder",
 			],
 			"settings": {
 				"foreground": "#EEFFFF"
@@ -948,28 +948,13 @@
 			}
 		},
 		//===============================///
-		// Beginning of tweaked settings //
+		//           Cyberpunk+          //
 		//===============================//
 		{
 			"name": "Punctuation, brackets, operators",
 			"scope": [
-				"punctuation.bracket.round.java",
-				"punctuation.bracket.square.java",
-				"punctuation.bracket.angle.java",
-				"keyword.operator.arithmetic.java",
-				"keyword.operator.bitwise.java",
-				"keyword.operator.comparison.java",
-				"keyword.operator.increment-decrement.java",
-				"keyword.operator.logical.java",
-				"keyword.operator.assignment.java",
-				"keyword.operator.assignment.bitwise.java",
-				"keyword.operator.assignment.arithmetic.java",
-				"punctuation.terminator.java",
-				"punctuation.separator.delimiter.java",
-				"punctuation.separator.java",
-				"punctuation.separator.period.java",
-				"punctuation.section.block.begin.bracket.curly.java",
-				"punctuation.section.block.end.bracket.curly.java",
+				"punctuation",
+				"keyword.operator"
 			],
 			"settings": {
 				"foreground": "#ffffffd2"
@@ -979,7 +964,8 @@
 			"name": "Italics",
 			"scope": [
 				"punctuation.definition.annotation.java",
-				"storage.type.annotation.java"
+				"storage.type.annotation",
+				"meta.decorator",
 			],
 			"settings": {
 				"fontStyle": "italic"
@@ -988,13 +974,21 @@
 		{
 			"name": "Modifiers",
 			"scope": [
-				"storage.modifier.java",
-				"storage.type.function.arrow.java",
-				"storage.modifier.extends.java",
-				"storage.modifier.implements.java",
-				"storage.type.generic.wildcard.java",
+				// General
+				"storage.modifier",
+				"storage.type.function.arrow",
+				"keyword.operator.ternary",
+				// JAVA
 				"keyword.operator.instanceof.java",
-				"keyword.control.ternary.java"
+				"keyword.control.ternary.java",
+				"keyword.operator.expression",
+				// JS
+				"storage.type",
+				"storage.modifier",
+				"punctuation.definition.template-expression",
+				"storage.type.class punctuation.definition",
+				"constant.language.import-export-all",
+				"keyword.operator.new",
 			],
 			"settings": {
 				"foreground": "#ff5680ff"
@@ -1003,18 +997,25 @@
 		{
 			"name": "Classes / Primitives types",
 			"scope": [
+				"entity.name.type",
+				"storage.type.annotation",
+				"punctuation.definition.annotation",
+				"entity.other.inherited-class",
+				"meta.decorator",
+				"support.type.primitive",
+				// JAVA 
 				"storage.type.java",
-				"storage.type.object.array.java",
-				"entity.name.type.class.java",
-				"punctuation.definition.annotation.java",
-				"storage.type.annotation.java",
-				"storage.type.generic.java",
-				"entity.other.inherited-class.java",
-				"punctuation.section.class.begin.bracket.curly.java",
+				"storage.type.generic",
+				"storage.type.object",
+				"meta.function-call.java punctuation.bracket.round.java",
+				"punctuation.definition.annotation-arguments.begin.bracket.round.java",
+				"punctuation.definition.annotation-arguments.end.bracket.round.java",
+				"punctuation.section.class",
+				"punctuation.section.inner-class",
 				"punctuation.section.class.end.bracket.curly.java",
-				"punctuation.section.inner-class.begin.bracket.curly.java",
 				"punctuation.section.inner-class.end.bracket.curly.java",
-				"meta.function-call.java punctuation.bracket.round.java"
+				"support.class",
+				"support.constant",
 			],
 			"settings": {
 				"foreground": "#00b0ffff"
@@ -1033,11 +1034,18 @@
 		{
 			"name": "Variables",
 			"scope": [
-				"variable.parameter.java",
+				"variable.parameter",
+				"variable.object",
+				"variable.other",
+				"variable.other.constant",
+				"variable.other.readwrite",
+				"variable.other.property",
+				"variable.other.object",
+				"variable.other.object.property",
 				"variable.other.definition.java",
-				"variable.other.object.java",
-				"variable.other.property.java",
-				"variable.other.object.property.java"
+				"punctuation.separator.key-value",
+				"meta.object-literal.key",
+				"support.variable",
 			],
 			"settings": {
 				"foreground": "#9cdcfeff"
@@ -1046,9 +1054,11 @@
 		{
 			"name": "Non-string Primitives",
 			"scope": [
-				"constant.language.java",
-				"constant.numeric.decimal.java",
-				"constant.character.escape.java"
+				"constant.language",
+				"constant.numeric.decimal",
+				"constant.character.escape",
+				"string.regexp punctuation.definition",
+				"string.regexp"
 			],
 			"settings": {
 				"foreground": "#ffb36c"
@@ -1057,12 +1067,6 @@
 		{
 			"name": "Keywords / Primitives",
 			"scope": [
-				"keyword.control.java",
-				"keyword.control.new.java",
-				"keyword.control.throw.java",
-				"keyword.control.try.java",
-				"keyword.control.catch.java",
-				"keyword.control.finally.java",
 				"storage.type.primitive.java",
 				"storage.type.primitive.array.java",
 				"punctuation.section.try.begin.bracket.curly.java",
@@ -1075,6 +1079,8 @@
 				"punctuation.section.finally.end.bracket.curly.java",
 				"meta.catch.java punctuation.definition.parameters.begin.bracket.round.java",
 				"meta.catch.java punctuation.definition.parameters.end.bracket.round.java",
+				// JS
+				"keyword.control"
 			],
 			"settings": {
 				"foreground": "#c592ff"
@@ -1088,7 +1094,7 @@
 				"storage.modifier.import.java",
 				"storage.modifier.package.java",
 				"constant.other.key.java",
-				"source.java"
+				"source",
 			],
 			"settings": {
 				"foreground": "#f8f8f8"
@@ -1105,7 +1111,13 @@
 				"meta.method-call.java punctuation.definition.parameters.end.bracket.round.java",
 				"meta.function-call.java punctuation.definition.parameters.begin.bracket.round.java",
 				"meta.function-call.java punctuation.definition.parameters.end.bracket.round.java",
-				"entity.name.function.java"
+				// JS
+				"entity.name.function",
+				"support.function",
+				"meta.arrow punctuation.definition.parameters",
+				"meta.function punctuation.definition.parameters",
+				"string.regexp keyword.operator",
+				"string.regexp keyword.control"
 			],
 			"settings": {
 				"foreground": "#00ffc8"
@@ -1114,9 +1126,9 @@
 		{
 			"name": "Strings",
 			"scope": [
-				"string.quoted.double.java",
-				"punctuation.definition.string.end.java",
-				"punctuation.definition.string.begin.java"
+				"string punctuation.definition.string",
+				"string",
+				"string.regexp punctuation.definition"
 			],
 			"settings": {
 				"foreground": "#ffffa7"

@@ -3,6 +3,9 @@ All notable changes to the "cyberpunk-plus" extension will be documented in this
 
 Version control? NAHHH
 
+# 0.0.6
+- Mapped color scheme to JavaScript as best as could be done
+
 # 0.0.5
 - Make default color white instead of bright green for those rare oddities
 - Fixed color for try brackets
