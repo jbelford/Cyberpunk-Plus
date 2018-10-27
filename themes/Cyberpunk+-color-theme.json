@@ -1016,6 +1016,7 @@
 				"punctuation.section.inner-class.end.bracket.curly.java",
 				"support.class",
 				"support.constant",
+				"support.type.builtin"
 			],
 			"settings": {
 				"foreground": "#00b0ffff"
@@ -1055,7 +1056,7 @@
 			"name": "Non-string Primitives",
 			"scope": [
 				"constant.language",
-				"constant.numeric.decimal",
+				"constant.numeric",
 				"constant.character.escape",
 				"string.regexp punctuation.definition",
 				"string.regexp"
